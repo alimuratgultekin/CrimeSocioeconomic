@@ -74,16 +74,6 @@ For a more meaningful analysis, data from **many  sources** will be gathered and
 
 ---
 
-## 📆 Project Timeline
-| **Date**        | **Milestone**                                       |
-|---------------|---------------------------------------------------|
-| **March 10**    | 📌 Submit project proposal (this README.md) on GitHub |
-| **April  18**   | 📊 Collect data, perform exploratory analysis & hypothesis testing |
-|  **May 23**     | 🧠 Train ML models & evaluate results |
-| **May  30**     | 📢 Final submission (report & presentation) |
-
----
-
 ## 🏛  Expected Findings
 This project is expected to reveal some **important characteristics** regarding how socio-economic factors  **affected crime rates**, such as:  
 ✅ **Low education may be connected with higher crime  rates.**  
