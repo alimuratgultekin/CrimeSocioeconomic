@@ -1,3 +1,5 @@
+# 📌 Phase 1: Project Proposal
+
 # 📊 Analysis of Crime Rate and Socioeconomic Factors. 
 
 ## 📝  Project Proposal Outline
@@ -101,3 +103,85 @@ Findings will be **presented in charts and maps** for easier understanding.
 -  **Privacy:** All datasets used shall be **available and anonymous**.
 - **Bias Awareness:** The analysis  will take into consideration possible prejudice in crime reporting.
 - **Transparency:** All data sources and methodologies  will be fully documented.
+
+
+# 📊 Phase 2: Data Collection, EDA, and Hypothesis Testing
+
+# 📊 Analysis of Crime Rates and Socioeconomic Factors
+
+## 🚀 Project Overview
+This project investigates the relationship between crime rates and socioeconomic factors such as education levels and unemployment rates across various U.S. cities and states. The goal is to identify potential correlations that could inform policies aimed at reducing crime.
+
+---
+
+## 📂 Data Collection
+- **Crime Data Source:**  
+  FBI Crime Data Explorer (2023) — City-level crime statistics for violent and property crimes.
+  
+- **Socioeconomic Data Sources:**  
+  USDA Economic Research Service (2023) — State-level data on:
+  - % of adults with a bachelor's degree or higher.
+  - Unemployment rates.
+
+- The datasets were cleaned and merged based on state and city information.  
+  Final datasets are available in the `/data` folder.
+
+---
+
+## 📊 Exploratory Data Analysis (EDA)
+- Descriptive statistics revealed:
+  - Average education level: ~26.6% with a bachelor's degree.
+  - Average unemployment rate: ~3.8%.
+  - High variability in crime counts due to population differences.
+
+- **Correlation Heatmap** indicated:
+  - Very weak negative correlation between education and crime rates.
+  - Slight positive correlation between unemployment and property crime.
+
+- **Visualizations:**
+  - ![Correlation Heatmap](exploratory%20data%20analysis/correlation_heatmap.png)
+  - ![Violent Crime vs Education](exploratory%20data%20analysis/scatter_violent_vs_education.png)
+  - ![Property Crime vs Unemployment](exploratory%20data%20analysis/scatter_property_vs_unemployment.png)
+
+More details and plots can be found in the `/exploratory data analysis` folder.
+
+---
+
+## 🧪 Hypothesis Testing
+Two hypotheses were tested:
+
+1️⃣ **Education vs. Violent Crime**  
+- **H₀:** No correlation between education level and violent crime.  
+- **Result:**  
+   - Pearson r = 0.0041 (p = 0.706) ➜ No significant linear correlation.  
+   - Spearman ρ = 0.0406 (p < 0.001) ➜ Statistically significant but negligible.
+
+2️⃣ **Unemployment vs. Property Crime**  
+- **H₀:** No correlation between unemployment rate and property crime.  
+- **Result:**  
+   - Pearson r = 0.0537 (p < 0.001) ➜ Weak but significant linear correlation.  
+   - Spearman ρ = 0.1453 (p < 0.001) ➜ Weak positive monotonic correlation.
+
+📄 Full results are available in the `/hypothesis-testing/hypothesis_testing_results.csv`.
+
+---
+
+## 🎯 Findings & Insights
+- No meaningful relationship was found between education levels and violent crime rates.
+- A weak but statistically significant relationship exists between unemployment rates and property crime.
+- These results suggest that while socioeconomic factors may influence crime, they are not sole predictors.
+
+---
+
+## ⚠️ Limitations
+- Crime data used raw counts instead of per capita rates.
+- Socioeconomic data was aggregated at the state level, which may overlook local variations.
+- Only 2023 data was analyzed; trends over time were not considered.
+
+---
+
+## 🚀 Next Steps
+- In future phases, apply machine learning models to explore predictive capabilities.
+- Incorporate additional factors such as income levels, poverty rates, and urbanization.
+
+---

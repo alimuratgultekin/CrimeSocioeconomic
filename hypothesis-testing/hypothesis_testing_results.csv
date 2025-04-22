@@ -1,0 +1,3 @@
+Test,Pearson r,Pearson p-value,Spearman rho,Spearman p-value
+Education vs. Violent Crime,0.0041,0.706,0.0406,0.000226
+Unemployment vs. Property Crime,0.0537,1e-06,0.1453,5e-11
