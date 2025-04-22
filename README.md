@@ -228,7 +228,7 @@ H₀: There is no correlation between unemployment rate and property crime.
 
 ## 🎯  Findings & Insights
 
-- The education levels did not have any effect on the crime rates.
+- Education levels didn't show a strong correlation with violent crime rates in this dataset.
 
 
 
