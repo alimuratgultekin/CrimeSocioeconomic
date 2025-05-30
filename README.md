@@ -269,3 +269,48 @@ Additional factors such as income levels, poverty  rates, and urbanization shoul
 
 
 ---
+
+---
+
+# 📊 Phase 3: Machine Learning Modeling
+
+To investigate the predictive relationship between socioeconomic factors and crime levels, machine learning techniques were applied in this final phase.
+
+## 🎯 Problem Setup
+- **Binary classification task**: Label each city as “high crime” or “low crime” based on the **median** values of `Violent_Crime` and `Property_Crime`.
+- **Features used**:
+  - `% with Bachelor's degree or higher`
+  - `Unemployment Rate`
+
+## 🤖 Models Used
+- **Logistic Regression**
+- **Random Forest Classifier**
+- **K-Nearest Neighbors (KNN)**
+
+## 📈 Evaluation Metrics
+Each model was evaluated using:
+- **Accuracy**
+- **Precision**
+- **Recall**
+- **F1-score**
+
+A summary table was created for both crime types to compare performance across models.
+
+## 📊 Visualizations
+The following visuals were included to interpret and compare model outputs:
+- **Confusion Matrices**
+- **ROC Curves**
+- **Prediction Distributions**
+- **Feature Importance (Random Forest)**
+- **Logistic Regression Coefficients**
+
+## ✅ Key Findings
+- **Random Forest and KNN** outperformed Logistic Regression in both crime types.
+- **Unemployment rate** showed slightly more predictive power than education level.
+- Even with socioeconomic indicators, crime classification remains complex and influenced by multiple unmeasured factors.
+
+## 🗂️ Implementation
+The complete implementation is provided in the notebook:
+📄 `ml_modeling_final.ipynb`
+
+---
