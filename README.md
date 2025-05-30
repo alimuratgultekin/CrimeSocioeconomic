@@ -310,7 +310,12 @@ The following visuals were included to interpret and compare model outputs:
 - Even with socioeconomic indicators, crime classification remains complex and influenced by multiple unmeasured factors.
 
 ## 🗂️ Implementation
+
 The complete implementation is provided in the notebook:
-📄 `ml_modeling_final.ipynb`
+
+📄 'ml_modeling_final.ipynb' (located in the 'ML/' folder)
+
+Use the data named preprocessed_data_for_ml (located in the 'data/' folder)
+
 
 ---
